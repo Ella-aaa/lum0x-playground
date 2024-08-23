@@ -1,9 +1,9 @@
 body {
-  background: transparent; /* Make it white if you need */
+  background: url('/src/asset/Bg.svg');
+  background-size: cover;
   padding: 0 24px;
   margin: 0;
   height: 100vh;
-
   justify-content: center;
   align-items: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
@@ -12,6 +12,8 @@ body {
 
 p {
   font-size: 40px;
+  padding-top: 30px;
+  padding-left: 50px;
 }
 
 #content {
@@ -37,6 +39,6 @@ p {
   #result-box {
     width: 500px;
     height: 600px;
-    background-color: #f8d57f5e;
+    background-color: #3e1d5d4f;
   }
 }
